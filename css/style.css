@@ -39,7 +39,8 @@ nav ul li {
 padding-left: 10px;
  }
  .carousel-inner > .item{
- 	height: 100vh;
+ 	min-height: 100vh;
+ 	max-height:1000px; 
  }
 h1 { 
     max-width: 500px;
@@ -61,6 +62,9 @@ h1 {
     border-radius: 3px;
     text-decoration: none;
     font-size: 12px;
+}
+.navbar-right{
+	    padding: 15px 0 0 0;
 }
 .verde{
       background-color: #2cce22 !important;
@@ -103,8 +107,9 @@ line-height: 18px;
     margin: 0 auto;
 }
 .formularios{
-max-width: 531px;
+    max-width: 793px;
 margin: 0 auto;
+padding-left: 70px;
 }
 .formularios section{
   min-width: 236px;
