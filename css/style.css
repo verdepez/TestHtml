@@ -190,3 +190,12 @@ background-repeat: repeat-x;
     padding-bottom: 1.25rem;
     margin-bottom: 2rem;
     border-bottom: .05rem solid #eee;}
+.imagen-referencia{
+    max-width: 950px;
+    width: 100%;
+    }
+   .iframe-mapa{
+   	max-width: 600px;
+   	width: 100%;
+   	min-height: 350px;
+   }
